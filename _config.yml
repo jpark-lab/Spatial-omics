@@ -1,6 +1,6 @@
 title: Spatial Omics Best Practices
 description: A site for scientists and students that want to learn spatial omics analysis and technologies
 theme: jekyll-theme-minimal
-logo: /assets/logo.png
+#logo: /assets/logo.png
 show_downloads: false
 google_analytics: # your tracking ID if desired
