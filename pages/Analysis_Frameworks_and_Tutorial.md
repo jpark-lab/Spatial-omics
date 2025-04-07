@@ -9,7 +9,7 @@ This tutorial introduces key concepts, data structures, and tools for analyzing 
 - Load, explore, and visualize CosMx spatial data using open-source Python packages.
 
 ## Quick Links
-- [CosMx Flat File Demo Dataset (Lung)](https://nanostring-public-share.s3.us-west-2.amazonaws.com/CosMx/Cellular+Data/Lung5_Rep1-Flat_files_and_images.zip)
+- [CosMx Flat File Demo Dataset (Lung)](http://nanostring-public-share.s3-website-us-west-2.amazonaws.com/)
 - [Squidpy Documentation](https://squidpy.readthedocs.io)
 - [Scanpy Documentation](https://scanpy.readthedocs.io)
 
@@ -19,13 +19,14 @@ This tutorial introduces key concepts, data structures, and tools for analyzing 
 Spatial omics combines molecular profiles (RNA, protein) with spatial location in tissue. 
 
 **Types:**
-- **Imaging-based transcriptomics** (CosMx, MERSCOPE): single-molecule resolution, high-plex, targeted panels.
-- **Sequencing-based** (10x Visium, Slide-seq): whole transcriptome coverage, lower resolution.
-- **Imaging-based proteomics** (CODEX, IMC): high-resolution, lower feature counts.
+- **Imaging-based transcriptomics** (CosMx, MERSCOPE, Xenium): single-molecule resolution, high-plex, targeted panels.
+- **Sequencing-based transcriptomics** (10x Visium, Slide-seq, Stereo-seq): whole transcriptome coverage, lower resolution.
+- **Imaging-based proteomics** (CODEX, IMC, CellScape): high-resolution, lower feature counts.
 
 ---
 
 ## 2. Data Structures
+Conversion between formats is possible via `zellkonverter` or `SeuratDisk`.
 
 ### Python: `AnnData`
 - `.X` — expression matrix (cells × genes)
@@ -42,7 +43,7 @@ Spatial omics combines molecular profiles (RNA, protein) with spatial location i
 
 ---
 
-## 3. Python Tools
+## 3. Python Tools for Spatial Omics
 - `Scanpy`: preprocessing, clustering, dimensionality reduction
 - `Squidpy`: spatial graph analysis, spatial statistics, integration with images
 - `Napari`: interactive visualization of spatial omics data and images
@@ -96,7 +97,7 @@ sq.pl.nhood_enrichment(adata)
 
 ---
 
-## 5. Student Practice
+## 5. Considerations - questions for students
 
 ### Conceptual
 - What is the purpose of the spatial neighbors graph?
@@ -118,4 +119,4 @@ sq.pl.nhood_enrichment(adata)
 - Try other tools: `Giotto`, `Seurat`, `Napari`, `BayesSpace`
 - Explore public reference atlases (e.g. HuBMAP, SAHA)
 
-This page can be expanded with more tutorials and methods chapters. Let us know what you'd like to see next!
+This page can be expanded with more tutorials and methods chapters (Of course more to come as the course develops). Let us know what you'd like to see next!
