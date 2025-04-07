@@ -9,5 +9,5 @@ Here we provide lectures, tutorials, and datasets for learning spatial omics met
 
 ## Contents
 
-- [CosMx Data Tutorial](pages/tutorial_cosmx.md)
+- [Analysis Frameworks and CosMx Data Tutorial](pages/Analysis_Frameworks_and_Tutorial.md)
 - [Upcoming: Visium, CODEX, IMC, Spatial Atlases, and more](pages/other_lessons.md)
